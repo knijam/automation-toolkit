@@ -1,0 +1,54 @@
+mas:
+  watchdog: true
+  scanfolder: C:\Users\MrWaddles
+  reporoot: C:\Repositories\MrWaddleAutoNeat
+  excludes:
+    - "*\\.*\\"
+    - "*Google Drive\\*"
+  categories:
+    music:
+      name: Music and Audit
+      subcategory: year
+      extentions:
+        - mp3
+        - wav
+        - wma
+        - ogg
+        - oga
+        - mogg
+    photos:
+      name: Photos and Images
+      subcategory: year
+      extentions:
+        - jpeg
+        - jpg
+        - bmp
+        - png
+        - gif
+        - raw   
+    videos:
+      name: Films and Videos
+      subcategory: year
+      extentions:
+        - avi
+        - mov
+        - mp4
+        - flv
+        - amv
+        - m4v
+        - mgp
+    documents:
+      name: Microsoft Documents
+      subcategory: year
+      extentions:
+        - doc
+        - docx
+        - xls
+        - xlsm
+        - pts
+    texts:
+      name: Plain Text Files
+      subcategory: year
+      extentions:
+        - txt
+        - text
